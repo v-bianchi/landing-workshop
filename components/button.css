@@ -1,0 +1,12 @@
+.my-button {
+  background-color: pink;
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  padding: 10px 17px;
+  border-radius: 4px;
+}
+
+.my-button:hover {
+  background-color: orange;
+  text-decoration: none;
+}

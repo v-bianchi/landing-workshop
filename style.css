@@ -1,0 +1,63 @@
+@import 'components/button.css';
+@import 'components/card.css';
+
+body {
+  background: rgb(245,245,245);
+  color: #1995E0;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #18638e;
+  font-weight: lighter;
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  width: 100px;
+}
+
+#banner {
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  padding: 250px 0;
+  background: linear-gradient(135deg,
+                    rgba(255, 255, 255, 0.7) 0%,
+                    rgba(255, 255, 255, 0.5) 50%),
+    url('https://images.unsplash.com/photo-1539970193429-bda4a8712f3a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6822dd480de0854aa42b868241903220&auto=format&fit=crop&w=1949&q=80');
+}
+
+#footer {
+  background-color: rgb(5, 5, 5);
+  color: rgb(250, 250, 250);
+  padding: 50px;
+}
+
+#footer i {
+  font-size: 32px;
+  color: pink;
+}
+
+#survey-button {
+  margin: 50px;
+}
+
+.btn-primary {
+  background-color: pink;
+}
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+.card {
+  height: 200px;
+  margin-bottom: 20px;
+  position: relative;
+  color: white;
+  background-size: cover;
+  background: linear-gradient(135deg,
+                    rgba(0, 0, 0, 0.7) 0%,
+                    rgba(0, 0, 0, 0.5) 50%),
+    url('https://source.unsplash.com/random/800x600');
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.card img {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.card-text {
+  bottom: 10px;
+  left: 10px;
+  position: absolute;
+
+}
